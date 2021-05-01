@@ -5,6 +5,9 @@ lib/
 include/SDL2/
 *.o
 *.a
+*.so
+*.dll
+*.dylib
 examples/gears
 examples/triangle
 *.swp
