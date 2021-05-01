@@ -2,7 +2,9 @@ build/
 obj/
 bin/
 lib/
-include/GL/
 include/SDL2/
-
+*.o
+*.a
+examples/gears
+examples/triangle
 *.swp
