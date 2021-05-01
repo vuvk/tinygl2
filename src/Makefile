@@ -7,7 +7,7 @@ OBJS= api.o list.o vertex.o init.o matrix.o texture.o \
       arrays.o specbuf.o memory.o
 
 INCLUDES = -I../include
-LIB = libTinySDGL.a
+LIB = libTinyGL2.a
 
 all: $(LIB) libTinyGLU.a
 

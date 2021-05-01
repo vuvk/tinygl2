@@ -9,17 +9,17 @@ LFLAGS=
 #####################################################################
 # SDL configuration (for the examples only)
 
-UI_LIBS=$(shell sdl-config --libs)
-UI_INCLUDES=$(shell sdl-config --cflags)
+UI_LIBS=$(shell sdl2-config --libs)
+UI_INCLUDES=$(shell sdl2-config --cflags)
 
 
 #####################################################################
 # OpenGL configuration (for the examples only)
 
 # use TinySDGL 
-GL_LIBS= -L../lib -lTinySDGL 
+GL_LIBS= -L../lib -lTinyGL2 
 GL_INCLUDES= -I../include
-GL_DEPS= ../lib/libTinySDGL.a
+GL_DEPS= ../lib/libTinyGL2.a
 
 # use Mesa
 #GL_LIBS= -lMesaGL 
