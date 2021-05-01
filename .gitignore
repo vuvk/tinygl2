@@ -2,3 +2,7 @@ build/
 obj/
 bin/
 lib/
+include/GL/
+include/SDL2/
+
+*.swp
