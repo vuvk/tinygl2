@@ -342,7 +342,7 @@ int main(int argc, char **argv)
         SDL_Delay(1);
 
         // check for error conditions:
-        char* sdl_error = SDL_GetError( );
+        const char* sdl_error = SDL_GetError( );
         if( sdl_error[0] != '\0' )
         {
             fprintf(stderr,"SDL ERROR: \"%s\"\n",sdl_error);
