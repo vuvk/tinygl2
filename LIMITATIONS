@@ -1,5 +1,5 @@
 
-Here are listed the functions that TinyGL/TinySDGL understand with the known
+Here are listed the functions that TinyGL/TinySDGL/TinyGL2 understand with the known
 limitations. The non mentioned functions are *not* implemented and
 must not be used.
 
@@ -169,4 +169,4 @@ GL_LINE_WIDTH, GL_LINE_WIDTH_RANGE, GL_POINT_SIZE, GL_POINT_SIZE_RANGE
 
 TinyGL GLX emulation:
 
-- not available in TinySDGL. Use original TinyGL for that.
+- not available in TinySDGL/TinyGL2. Use original TinyGL for that.

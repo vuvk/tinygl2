@@ -1,4 +1,4 @@
-version 0.51/TinyGL-SDL2:
+version 0.51/TinyGL2:
 - adaption of examples (gears and triangle) to SDL2 (Anton "Vuvk" Shcherbatykh)
 
 version 0.5/TinySDGL:

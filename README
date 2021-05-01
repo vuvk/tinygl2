@@ -58,7 +58,7 @@ functions of TinyGL. You can link them to either TinyGL, Mesa or any
 other OpenGL implementation.
 
 - texobj illustrates the use of texture objects. Its shows the speed
-of TinyGL in this case (example not included in TinySDGL).
+of TinyGL in this case (example not included in TinySDGL/TinyGL2).
 
 - You can download and compile the VReng project to see that TinyGL
 has been successfully used in a big project
@@ -75,13 +75,13 @@ TinyGL is made up four main modules:
 
 - Z buffer and rasterisation (zbuffer).
 
-To use TinySDGL in a further system, you should look at the examples
-and replace the SDL specific code by corresponding commands.
+To use TinySDGL/TinyGL2 in a further system, you should look at the examples
+and replace the SDL/SDL2 specific code by corresponding commands.
 
 Notes - limitations:
 --------------------
 
-- 24 BIT packed pixel format seems not to work correctly under libSDL.
+- 24 BIT packed pixel format seems not to work correctly under libSDL/libSDL2.
 
 - See the file 'LIMITATIONS' to see the current functions supported by the API.
 

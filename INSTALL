@@ -2,9 +2,14 @@ Installation:
 
 - Edit makeinclude and change what is needed. You can also look at
 src/zfeatures.h to change very specific details (only useful to tune
-TinySDGL to your needs). You can link the examples with either OpenGL,
-Mesa or TinySDGL.
+TinyGL2 to your needs). You can link the examples with either OpenGL, Mesa or TinyGL2.
 
-- Type 'make'. The library 'libTinySDGL.a' is copied into './lib'. The
+- Type 'make'. The library 'libTinyGL2.a' is copied into './lib'. The
 examples are build in './examples'. Only the directories './lib' and
-'./include' are needed to use TinySDGL from another program.
+'./include' are needed to use TinyGL2 from another program.
+
+Installation with CMake:
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
